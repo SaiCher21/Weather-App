@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>Document</title>
   </head>
   <body>
@@ -33,11 +33,13 @@
           </svg>
         </button>
       </div>
-      <div class="weather">
+      <div class="weather loading">
         <h2 class="city">Weather in Paris</h2>
         <h1 class="temp">45°C</h1>
-        <img src="" alt="" class="icon" />
-        <div class="description">Cloudy</div>
+        <div class="flex">
+          <img src="" alt="" class="icon" />
+          <div class="description">Cloudy</div>
+        </div>
         <div class="humidity">Humidity: 60%</div>
         <div class="wind">Wind speed:6.2km/hr</div>
       </div>
