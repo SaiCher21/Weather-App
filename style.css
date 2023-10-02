@@ -27,7 +27,7 @@ body {
 }
 
 input.search-bar {
-  padding: 0.9em 0.9em;
+  padding: 0.5em 0.9em;
   outline: none;
   width: calc(100% - 100px);
   margin: 0.5em;
@@ -44,12 +44,18 @@ button {
   background: #7c7c7c2b;
   outline: none;
   border: none;
+  height: 35px;
+  weight: 35px;
   border-radius: 50px;
-  padding: 0.8em 0.9em;
+  padding: 0.6em 0.6em;
   cursor: pointer;
   transition: 0.1s ease-in-out;
 }
 
 button:hover {
   background: #7c7c7c6b;
+}
+
+h1.temp {
+  margin: 0;
 }
